@@ -10,11 +10,11 @@ function total = summation(t1, t2, a, data, num)
 total = 0;
 if num == 0
     for i = 1:length(data)
-        total = total + (a * (data(i,2) - hw()));
+        total = total + (a * (data(i,2) - hw(t1,t2,data(i,1))));
     end
 else
     for i = 1:length(data)
-        total = total + (a * (data(i,2) - hw()) * data(i,1));
+        total = total + (a * (data(i,2) - hw(t1,t2,data(i,1))) * data(i,1));
     end
 end
 end
