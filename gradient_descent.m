@@ -10,9 +10,8 @@ for i = 1:rows
         end
     end
 end
-% dataset = user input
-% w1 = user input
-% w2 = user input
-% a = user input
+w1 = input('Enter the value of weight 1: ');
+w2 = input('Enter the value of weight 2: ');
+a = input('Enter the value of the learning rate: ');
 % call batch function
 % call stochastic function
