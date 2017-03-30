@@ -13,5 +13,5 @@ end
 w1 = input('Enter the value of weight 1: ');
 w2 = input('Enter the value of weight 2: ');
 a = input('Enter the value of the learning rate: ');
-% call batch function
+batch(w1, w2, a, dataset);
 % call stochastic function
