@@ -10,8 +10,8 @@ old1 = w1;
 old2 = w2;
 count = 0;
 while count < 1000000
-    new1 = summation(old1, old2, a, data, 0);
-    new2 = summation(old1, old2, a, data, 1);
+    new1 = summation(old1, old2, a, data, 2);
+    new2 = summation(old1, old2, a, data, 3);
     old1 = new1;
     old2 = new2;
     count = count + 1;
